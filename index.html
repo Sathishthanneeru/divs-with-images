@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .div1{
+      border: 3px solid black;
+      height: 200px;
+      width: 190px;
+      white-space: nowrap;
+    }
+    .p1   {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    #p1 {
+      display: none;
+
+    }
+    .div1:hover + #p1 {
+      display:  block;
+      background-color: rgb(40, 50, 60);
+      color: white;
+      width: 200px;
+      margin-left: 200px;
+
+    }
+    .div2{
+        border: 3px solid black;
+        height: 200px;
+        width: 150px;
+        white-space: nowrap;
+        margin-left: 400px;
+        margin-top: -200px;
+
+    }
+    .p2{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #p2{
+        display: none;
+    }
+    .div2:hover ~ #p2 {
+        display: block;
+        background-color: rgb(100, 90, 50);
+        color: white;
+        width: 220px;
+        border-top-right-radius: 25px;
+        margin-left: 200px;
+        margin-top: 25px;
+
+    }
+    .p2{
+        border: 1px solid black;
+
+
+    }
+
+    }
+  </style>
+  <body>
+    <div class="div1">
+      <img
+        src="https://assets-blog.s3.amazonaws.com/office-furniture-blog/wp-content/uploads/2022/08/08004004/SP-HA_Blade-and-OFS-Opt-2-White_Frosted_Acrylic_Black_Vectra_SP-1080x497.jpg"
+        alt=""
+        height="85px"
+      />
+      <h1>workspace</h1>
+      <p class="p1">the image description</p>
+    </div>
+    <p id="p1">
+      A hybrid working environment is a business model that blends remote and
+      in-office work. The reasons for implementing this business practice vary.
+      Some companies view it as an opportunity to increase efficiency and become
+      more cost-effective. Staggering in-office attendance often creates a need
+      for less physical office space. Other companies might provide a hybrid
+      option to their employees as an employee benefit. A properly designed
+      hybrid workspace provides a resource for employees to meet, collaborate,
+      and perform work in an office setting. But it also needs to allow for
+      in-office workers to work seamlessly with their remote team members. Our
+      commercial office furniture can help design different spaces for different
+      work purposes and interactions. And these areas provide workers with
+      resources that can help them in and out of the office. There are several
+      key elements to a hybrid space and the design depends solely on a workers
+      needs.
+    </p>
+    <div class="div2">
+      <img
+        src="https://next-images.123rf.com/index/_next/image/?url=https://assets-cdn.123rf.com/index/static/assets/top-section-bg.jpeg&w=3840&q=75"
+        alt=""
+        height="100px"
+      />
+      <h1>nature</h1>
+      <p class="p2">the image discription</p>
+    </div>
+    <p id="p2">
+      Nature is an inherent character or constitution,[1] particularly of the
+      ecosphere or the universe as a whole. In this general sense nature refers
+      to the laws, elements and phenomena of the physical world, including life.
+      Although humans are part of nature, human activity or humans as a whole
+      are often described as at times at odds, or outright separate and even
+      superior to nature
+    </p>
+  </body>
+</html>
